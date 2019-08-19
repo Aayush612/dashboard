@@ -1,0 +1,9 @@
+1.
+The baseline of an 'inline-block' is the baseline of its last line box in the normal flow, unless it has either no in-flow line boxes or if its 'overflow' property has a computed value other than 'visible', in which case the baseline is the bottom margin edge.
+See: http://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align
+
+2.
+When we right two inline block next to each and enter a '/n' in out code the browser reduces the enter and white spaces to single entity and renders a space in between the inline elements. hence use <!-- --> in between enter key between two inline block elements.
+
+3.
+When you need text align (inline element), apply it to the outer block elements
